@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
-    
+    <script src="script.js"></script>
    
     <title>Document</title>
 </head>
-<body>
+<body onresize="Mudar()" >
     <header>
         <h1>Benvindo aos Juvs 2024 </h1>
         <p>Seja benvindo ao gerenciamneto de jogos universitarios ,sua plataforma centralizada para simplificar e aprimorar a ornigação dos Juvs 2024</p>
         
-        
-       <menu>
-        <span class="material-symbols-outlined">
-            menu
-            </span>
+        <span id="burger" class="material-icons" onclick="menu()">menu</span>
+       <menu id="itens" >
+       
            <ul>
                 <li><a href="#">Calendarios</a></li>
                 <li><a href="#">Resultados</a></li>
@@ -32,52 +31,56 @@
 
 
 <main>
-    <h1>História dos Jogos Universitários</h1>
-       <p>
-           - A Evolução dos Jogos Universitários: Uma História de Competição e União
-           Os jogos universitários têm raízes antigas, remontando à Grécia Antiga, onde competições esportivas entre escolas celebravam a juventude e a educação. Ao longo dos séculos, essa tradição evoluiu, adaptando-se às mudanças culturais e sociais, e hoje é uma parte essencial da vida acadêmica, promovendo valores como competição justa e espírito esportivo.
-       </p>
-    
-    <h2>Visão dos Jogos Universitários</h2>
-       
-       <p>Os jogos universitários são mais do que competições esportivas; são oportunidades para os estudantes se unirem em torno de uma paixão comum pelo esporte, promovendo valores como trabalho em equipe e respeito mútuo. Além de promover a saúde física, os jogos também refletem a diversidade e a inclusão presentes nas comunidades acadêmicas, reunindo estudantes de diferentes origens para celebrar a excelência esportiva.</p>
-     <a href=""></a>
-     <p>Esta foto histórica captura a essência dos jogos do passado, destacando a paixão e a dedicação dos participantes em competir e celebrar o espírito esportivo</p>
-    
-    <p>
-        Vivendo os Jogos Universitários de Hoje
-           Os jogos universitários de hoje continuam a inspirar e unir estudantes em torno do esporte. Esta foto atual reflete a emoção e a energia dos jogos universitários contemporâneos, mostrando como a tradição continua viva e vibrante na comunidade acadêmica.
+    <article>
+        <h1>História dos Jogos Universitários</h1>
+           <p>
+               - A Evolução dos Jogos Universitários: Uma História de Competição e União
+               Os jogos universitários têm raízes antigas, remontando à Grécia Antiga, onde competições esportivas entre escolas celebravam a juventude e a educação. Ao longo dos séculos, essa tradição evoluiu, adaptando-se às mudanças culturais e sociais, e hoje é uma parte essencial da vida acadêmica, promovendo valores como competição justa e espírito esportivo.
+           </p>
         
-    </p>
+        <h2 id="azul">Visão dos Jogos Universitários</h2>
+        
+           <p>Os jogos universitários são mais do que competições esportivas; são oportunidades para os estudantes se unirem em torno de uma paixão comum pelo esporte, promovendo valores como trabalho em equipe e respeito mútuo. Além de promover a saúde física, os jogos também refletem a diversidade e a inclusão presentes nas comunidades acadêmicas, reunindo estudantes de diferentes origens para celebrar a excelência esportiva.</p>
+         <a href=""></a>
+         <p>Esta foto histórica captura a essência dos jogos do passado, destacando a paixão e a dedicação dos participantes em competir e celebrar o espírito esportivo</p>
+        
+        <p>
+            Vivendo os Jogos Universitários de Hoje
+               Os jogos universitários de hoje continuam a inspirar e unir estudantes em torno do esporte. Esta foto atual reflete a emoção e a energia dos jogos universitários contemporâneos, mostrando como a tradição continua viva e vibrante na comunidade acadêmica.
+        
+        </p>
+    </article>
     [Foto]
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2x3A0FC61h0?si=JSttURTl72qvmtj6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
-    <h2>Quer saber mais</h2>
-     <p>Os jogos universitários têm uma rica história que remonta a séculos atrás</p>
-    <li >1.5 - Cupcake</li>
-    <li >1.6 - Donut</li>
-    <li >3.0 - EclairA</li>
-    <li >2.2 - Froyo</li>
-    <li >Gin2.3 -gerbread</li> 
-    <li >3.0 - Honeycomb</li>
-    <li >4.0 - Ice Cream Sandwich</li>
-    <li >4.1 - Jelly Bean</li>
-    <li >4.4 - KitKat</li>
-    <li >5.0 - Lolipop</li>
-    <li >6.0 - Marshmallow</li>
-    <li >7.0 - Nougat</li>
-    <li >8.0 - Oreo</li>
-    <li >9.0 - Pie</li>
-    
+    <aside>
+        <h2>Quer saber mais</h2>
+        <p>Os jogos universitários têm uma rica história que remonta a séculos atrás</p>
+        <ul>
+            <li >1.5 - Cupcake</li>
+            <li >1.6 - Donut</li>
+            <li >3.0 - EclairA</li>
+            <li >2.2 - Froyo</li>
+            <li >Gin2.3 -gerbread</li>
+            <li >3.0 - Honeycomb</li>
+            <li >4.0 - Ice Cream Sandwich</li>
+            <li >4.1 - Jelly Bean</li>
+            <li >4.4 - KitKat</li>
+            <li >5.0 - Lolipop</li>
+            <li >6.0 - Marshmallow</li>
+            <li >7.0 - Nougat</li>
+            <li >8.0 - Oreo</li>
+            <li >9.0 - Pie</li>
+        </ul>
+        
+    </aside>
     <p>
         Estamos comprometidos em forneceruma expreriencia novos aos usuariose em contribuir para o  sucesso continiuo dos Juvs da nossa Istituição,
         promovendo uma cultura excelencia esportiva entre os estudante.
     </p>
 </main>
 
-<footer>site desenvolvido  "Project Ateliê de Software"</footer>
-
-
+<footer> desenvolvido  <strong>Project Ateliê de Software</strong></footer>
 
 
 
