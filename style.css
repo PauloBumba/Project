@@ -127,9 +127,7 @@ article > h1,h2{
     font-weight: normal;
 
 }
-article p{
-    margin-bottom: 10px;
-}
+
 #azul{
    text-indent: 80px;
    background-image: linear-gradient(to right,var(--cor5), transparent);
@@ -166,7 +164,7 @@ strong{
 }
 div{
     
-    
+    margin-top: 10px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
