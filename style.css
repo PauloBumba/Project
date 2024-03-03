@@ -101,7 +101,7 @@ main {
     max-width: 800px;
     min-width: 320px;
     margin: auto;
-    border-radius: 10px ;
+    border-radius: 10px 10px 0px 0px ;
    
 
 }
@@ -132,9 +132,10 @@ article > h1,h2{
 }
 
 aside{
+
     background-color: var(--cor4);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px ;
     box-shadow: 2px 1px 4px #0d5958;
 }
 
@@ -158,4 +159,25 @@ footer{
 }
 strong{
     font-weight: bolder;
+}
+
+
+@media screen  and (min-width:760px) and  (min-width:120px){
+    #burger{
+        display: none;
+    }
+   
+
+    menu {
+        display: block;
+        border-radius: 10px;
+
+    }
+    menu> ul> li>{
+        display:  inline-block;
+       
+       margin-left: 10px;
+      
+    }
+  
 }
